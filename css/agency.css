@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/about/achtergrond.jpg'); //VeenGaatVreemd2016Kopie.jpg
+  background-image: url('../img/about/achtergrond.jpg'); 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
