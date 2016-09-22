@@ -99,6 +99,7 @@ fieldset[disabled] .btn-primary.active {
   color: #fed136;
   background-color: white;
 }
+
 .btn-xl {
   color: white;
   background-color: #fed503;
@@ -109,7 +110,7 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
-  margin-top: 200px;
+  margin-top: 10px;
 }
 
 .btn-xl:hover,
