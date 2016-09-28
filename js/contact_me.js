@@ -21,7 +21,7 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "https://formspree.io/dave_de_koning@hotmail.com",
+                url:"https://formspree.io/dave_de_koning@hotmail.com",
                 type: "POST",
                 data: {
                     name: name,
@@ -48,7 +48,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", blijkbaar doet het systeem het nu niet. Mijn excuses, probeer het later nog eens.");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", er het later nog eens.");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
