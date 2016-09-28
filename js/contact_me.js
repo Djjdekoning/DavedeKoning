@@ -21,7 +21,7 @@ $(function() {
             }
             $.ajax({
                 //url: "././mail/contact_me.php",
-                url: "https://formspree.io/djjdekoning@gmail.com",
+                url: "https://formspree.io/dave_de_koning@hotmail.com",
                 type: "POST",
                 data: {
                     name: name,
