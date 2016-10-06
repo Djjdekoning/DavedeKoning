@@ -36,7 +36,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Bedankt voor u bericht :) </strong>");
+                        .append("<strong>Bedankt voor uw bericht :) </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
